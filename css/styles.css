@@ -6,7 +6,7 @@ body {
 
 h1, h2, h3, h4, h5 {
 
-	
+
 }
 
 /**Layout**/
@@ -22,6 +22,33 @@ h1, h2, h3, h4, h5 {
 .content {
 	text-align: left;
 	overflow: auto;
+}
+
+#column1 {
+	width:25%;
+	display: inline-block;
+	vertical-align: top;
+	margin: 10px;	
+
+}
+
+
+#column2 {
+	width:25%;
+	display: inline-block;
+	vertical-align: top;
+	margin: 10px;
+	
+	
+}
+
+#column3 {
+	width:25%;
+	display:inline-block;
+	vertical-align: top;
+	margin: 10px;
+	
+
 }
 
 /*****Navigation*****/

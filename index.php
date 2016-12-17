@@ -29,8 +29,7 @@
             <div class="content">
 
               <img src="Gardens.jpg" alt="Princes Street Gardens in Edinburgh, Scotland">
-
-                
+ 
 
             </div><!-- .content -->
 
@@ -58,9 +57,7 @@
           
           <img src="line-up.jpg" alt="Field Hockey Team">
           
-        </div>
-
-                
+        </div>   
 
             </div><!-- .content -->
 
@@ -72,9 +69,103 @@
     <section id="third">
         <div class="container">
 
-            <h1>Third Section</h1>
+            <h1>Accomplishments</h1>
 
             <div class="content">
+
+              <article>
+
+               <!--Number 1-->
+               <div class="item">
+                  <div class="img">
+                    <img src="" alt="">
+                  </div>
+                  <div class="info">
+                     <h2>Athletics</h2>
+                     <p></p>
+                  </div><!--.info-->
+              </div>
+
+              <!--Number 2-->
+               <div class="item">
+                  <div class="img">
+                    <img src="" alt="">
+                  </div>
+                  <div class="info">
+                     <h2>Edinburgh Capitals Ice Hockey</h2>
+                     <p></p>
+                  </div><!--.info-->
+              </div>
+
+              <!--Number 3-->
+               <div class="item">
+                  <div class="img">
+                    <img src="" alt="">
+                  </div>
+                  <div class="info">
+                     <h2>Alpha Kappa Psi</h2>
+                     <p></p>
+                  </div><!--.info-->
+              </div>
+
+              <!--Number 4-->
+               <div class="item">
+                  <div class="img">
+                    <img src="" alt="">
+                  </div>
+                  <div class="info">
+                     <h2>Chi Omega</h2>
+                     <p></p>
+                  </div><!--.info-->
+              </div>
+
+              <!--Number 5-->
+               <div class="item">
+                  <div class="img">
+                    <img src="" alt="">
+                  </div>
+                  <div class="info">
+                     <h2>Employment</h2>
+                     <p></p>
+                  </div><!--.info-->
+              </div>
+
+
+
+
+
+
+
+
+
+              </article>
+
+
+              <aside>
+
+                <section>
+
+
+
+
+                </section>
+
+
+
+
+
+                <section>
+
+
+
+
+                </section>
+
+
+
+
+              </aside>
+
 
                 
 
@@ -82,7 +173,7 @@
 
        </div><!-- .container -->
 
-    </section>
+    </section><!--.third-->
 
      <?php include 'footer.inc';?>
 
