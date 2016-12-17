@@ -1,31 +1,34 @@
 <!DOCTYPE html>
 <html>
 
+<?php 
+  $currentPage = "Home";
+
+  ?>
+
 <head>
     <meta charset="utf-8">
     <title> Tiffany White | Home </title>
     <link rel="stylesheet" href="css/long-scrolly.css">
     <link rel="stylesheet" href="css/styles.css">
+    <link href="" rel="stylesheet">
+  <link rel="stylesheet" href="css/fonts.css">
 </head>
 
 <body>
 
     <!-- Navigation -->
-  <nav class="main-menu" class="horizontal-nav">
-        <ul>
-            <li class="currentpage"><a href="index.php">Home </a></li>
-            <li><a href="portfolio.php">Portfolio </a></li>
-            <li><a href="contact.php">Contact Form </a></li>
-        </ul>
-    </nav>
+     <?php include 'nav.inc';?>
 
     <!-- Top Section -->
     <section id="first">
         <div class="container">
 
-            <h1>First Section</h1>
+            <h1>Tiffany White</h1>
 
             <div class="content">
+
+              <img src="Gardens.jpg" alt="Princes Street Gardens in Edinburgh, Scotland">
 
                 
 
@@ -39,9 +42,23 @@
     <section id="second">
         <div class="container">
 
-            <h1>Second Section</h1>
-
             <div class="content">
+
+        <div id="column1">
+          <h2>Studio Art</h2>
+          <p><span class="nyc"></p>
+        </div>
+
+        <div id="column2">
+          <h2>Business</h2>
+          <p> </p>
+        </div>
+
+        <div id="column3">
+          
+          <img src="line-up.jpg" alt="Field Hockey Team">
+          
+        </div>
 
                 
 
@@ -61,13 +78,13 @@
 
                 
 
-            </div><!-- .content -->
-
-      <?php include 'footer.inc';?>
+            </div><!-- .content --> 
 
        </div><!-- .container -->
 
     </section>
+
+     <?php include 'footer.inc';?>
 
 <!-- Use the following JavaScript code to do the smooth-scroll thing on the internal links -->
 <script src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
@@ -89,6 +106,9 @@ $(function() {
   });
 });
 </script>
+
+  <script src="http://code.jquery.com/jquery.js"></script>
+  <script src="js/menu-highlighter.js"></script>
 
 </body>
 
