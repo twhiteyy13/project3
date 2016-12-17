@@ -1,0 +1,64 @@
+/*	****************************************
+	Demo styles (for demo purposes only)
+	**************************************** */
+p { margin-top: 0; }
+
+.right {
+	float: right;
+	margin-left: 15px;
+}
+
+.frame {
+	border: 1px solid #666;
+	padding: 5px;
+}
+
+/*	****************************************
+	Modules (reusable classes)
+	**************************************** */
+.container {
+	margin: 0 auto;
+	width: 95%;
+	max-width: 960px; 
+}
+
+.content {
+	text-align: left;
+	overflow: auto;
+}
+
+.horizontal-nav ul {
+list-style-type: none;
+margin: 0;
+padding-bottom: 20px;
+}
+
+.horizontal-nav li {
+background: teal;
+color: white;
+display: inline;
+margin: 0;
+height: 38px;
+padding: 0;
+}
+
+.horizontal-nav a {
+background: teal;
+color:white;
+font-weight: bold;
+text-decoration: none;
+}
+
+.horizontal-nav a:hover {
+background-color: #d9d9d9;
+}
+
+.horizontal-nav .currentpage a {
+background: orange;
+color: black;
+}
+
+.container {
+	background-color: #fff9e6;
+	padding: 20px 10px 10px 20px;
+}
