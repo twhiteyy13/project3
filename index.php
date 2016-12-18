@@ -3,7 +3,6 @@
 
 <?php 
   $currentPage = "Home";
-
   ?>
 
 <head>
@@ -17,7 +16,6 @@
 
 <body>
 
-    <!-- Navigation -->
      <?php include 'nav.inc';?>
 
     <!-- Top Section -->
