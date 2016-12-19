@@ -50,7 +50,7 @@
 	</table>
 
 	<br>
-	<a href=".">Back to the Index</a>
+	<a href=".">Back to the Home</a>
 
 </body>
 </html>

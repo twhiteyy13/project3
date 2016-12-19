@@ -2,7 +2,7 @@
 <html>
 
 <?php 
-  $currentPage = "Contact";
+  $thisPage = "Contact";
   ?>
 
 <head>
@@ -16,39 +16,65 @@
 
 <body>
 
-     <?php include 'nav.inc';?>
-  
+     <header>
 
-  	<h1>Phonebook Entry</h1>
+        <?php include 'inc/nav.inc';?>
+
+    <h1>Tiffany White | Contact Form </h1>
+
+  </header>
+
+  <div class="container-form">
+
+   <section>
+
+
+
+  	<h2>Contact Me</h2>
 
 	<form method="post" action="database-write.php" form name="contactForm" onsubmit="return(validate());">
 		
-	<div>
+
+
+	<div class="label">
 		<label for="name"> Name: </label>
 		<input type="text" name="name" id="name">
 	</div>
 
-	<div>
+	<div class="label">
 		<label for="Email"> Email: </label>
-		<input type="text" name="Email" id="Email">
+		<input type="text" name="email" id="email">
 	</div>
 
-	<div>
+	<div class="label">
 
-		<label for="tel"> Telephone:</label> 
-		<input type="tel" name="tel" id="tel" >
+		<label for="phone"> Telephone:</label> 
+		<input type="phone" name="phone" id="phone">
 	</div>
 
-	<div>
+	<div class="label">
 
-		<label for="message"> Message: </label>
-		<textarea name="message"
+		<label for="message"> Message:</label>
+		<textarea name="message" id="message" form="contactForm"></textarea>
 
-		<input type="submit" value="Send">
+  </div>
+  
 
-	</form>
+    <input type="submit" value="Send">
 
-	<p> Or Go <a href=".">Back to the Index</a></p>
+  </form>
+
+  <p> Or Go <a href="index.php">Back to the Home</a></p>
+
+
+
+</div> <!--.form-->
+
+  </section>
+
+</div>
+
+	
 
 	  <script src="http://code.jquery.com/jquery.js"></script>
   <script src="js/menu-highlighter.js"></script>
@@ -56,7 +82,7 @@
 </body>
 </html>
 
- <?php include 'footer.inc';?>
+ <?php include 'inc/footer.inc';?>
 
 <!--Form Validation-->
 

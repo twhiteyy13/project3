@@ -2,7 +2,7 @@
 <html>
 
 <?php 
-  $currentPage = "Home";
+  $thisPage = "Home";
   ?>
 
 <head>
@@ -16,34 +16,26 @@
 
 <body>
 
-     <?php include 'nav.inc';?>
+  <header>
 
-    <!-- Top Section -->
-    <section id="first">
-        <div class="container">
+    <?php include 'inc/nav.inc';?>
 
-            <h1>Tiffany White</h1>
+    <h1>Tiffany White | Home </h1>
 
-            <div class="content">
+  
+  </header>
 
-              <img src="images/Gardens.jpg" alt="Princes Street Gardens in Edinburgh, Scotland">
- 
+     <!-- First Section -->
 
-            </div><!-- .content -->
+      <img src="images/hero.jpg" alt="" class="hero">
 
-       </div><!-- .container -->
+   
+    <div class="container-top">
 
-    </section>
-
-    <!-- Second Section -->
-    <section id="second">
-        <div class="container">
-
-            <div class="content">
 
         <div id="column1">
           <h2>Studio Art</h2>
-          <p>I'm a studio art major. I normally specialize in 3D art or installations because I like making art that people can touch and interact with by using all of their senses. Check out my <a href ="http://tiffanywhite12.wixsite.com/tiffany-art-design"> personal website </a> to see a collection of my work. </p>
+          <p>I'm a studio art major. I normally specialize in 3D art or installations because I like making art that people can touch and interact with by using all of their senses. Check out my <a href ="http://tiffanywhite12.wixsite.com/tiffany-art-design">personal website</a> to see a collection of my work. </p>
         </div>
 
         <div id="column2">
@@ -53,17 +45,24 @@
 
         <div id="column3">
           
-          <img src="images/line-up.jpg" alt="Field Hockey Team">
+          <h2>Computer Science</h2>
+          <p> Under the Rochester Curriculum guidelines, my natural science division cluster is within the Computer Science Department. I focus on the interaction of Computer and Art, and most specifically in web design.</p>
           
         </div>   
 
-            </div><!-- .content -->
+        <div id="column4">
+          
+         <h2><a href="urcsc174.org/twhite1/project3/contact.php">Contact Me</a> </h2> 
+
+      </div>
+
+         
 
        </div><!-- .container -->
 
     </section>
 
-    <!-- Third Section -->
+    <!-- Second Section -->
     <section id="third">
         <div class="container">
 
@@ -187,7 +186,7 @@
 
     </section><!--.third-->
 
-     <?php include 'footer.inc';?>
+     <?php include 'inc/footer.inc';?>
 
 <!-- Use the following JavaScript code to do the smooth-scroll thing on the internal links -->
 <script src="http://code.jquery.com/jquery-2.2.4.min.js"></script>
