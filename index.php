@@ -180,7 +180,7 @@ organizing sisters for sponsored table and activity night of event, liaison betw
               <p>Lehigh Valley Sports Hall of Fame College Scholar Athlete of the Year (May 2014) </p>
       
 
-            </aside>
+          </aside>
 
         </div><!--.content-->
 
