@@ -7,11 +7,12 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Tiffany White | Contact </title>
+    <meta name="viewport" content="width=device-width">
+    <title> Tiffany White | Contact </title>
     <link rel="stylesheet" href="css/long-scrolly.css">
     <link rel="stylesheet" href="css/styles.css">
-    <link href="" rel="stylesheet">
-	<link rel="stylesheet" href="css/fonts.css">
+    <link rel="stylesheet" href="sss/sss.css">
+	 <link rel="stylesheet" href="css/fonts.css">
 </head>
 
 <body>
@@ -24,17 +25,13 @@
 
   </header>
 
-  <div class="container-form">
+<div class="container-form">
 
    <section>
 
-
-
   	<h2>Contact Me</h2>
 
-	<form method="post" action="database-write.php" form name="contactForm" onsubmit="return(validate());">
-		
-
+	<form method="post" action="database-write.php" name="contactForm" onsubmit="return(validate());">
 
 	<div class="label">
 		<label for="name"> Name: </label>
@@ -49,7 +46,7 @@
 	<div class="label">
 
 		<label for="phone"> Telephone:</label> 
-		<input type="phone" name="phone" id="phone">
+		<input type="text" name="phone" id="phone">
 	</div>
 
 	<div class="label">
@@ -66,13 +63,13 @@
 
   <p> Or Go <a href="index.php">Back to the Home</a></p>
 
+ </section>
+
+</div> <!--.container-form-->
+
+ 
 
 
-</div> <!--.form-->
-
-  </section>
-
-</div>
 
 	
 
@@ -86,7 +83,7 @@
 
 <!--Form Validation-->
 
-<script type="text/javascript">
+<script>
         
 
       function validate(){
@@ -129,7 +126,7 @@
          return( true );
       }
 
-      </script>
+</script>
 
  
 
