@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="sss/sss.css">
 	 <link rel="stylesheet" href="css/fonts.css">
+<link href="https://fonts.googleapis.com/css?family=Cormorant+Unicase|Covered+By+Your+Grace|Eczar|Playfair+Display+SC" rel="stylesheet">
 </head>
 
 <body>

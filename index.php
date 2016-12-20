@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="sss/sss.css">
     <link rel="stylesheet" href="css/fonts.css">
+<link href="https://fonts.googleapis.com/css?family=Cormorant+Unicase|Covered+By+Your+Grace|Eczar|Playfair+Display+SC" rel="stylesheet">
 </head>
 
 <body>
@@ -164,7 +165,8 @@ organizing sisters for sponsored table and activity night of event, liaison betw
           
           <aside>
 
-            <img class="response" src="images/aside.png" alt="Wine Course during Study Abroad">
+            <img class="response" src="images/artist.png" alt="I am an Artist">
+
 
             <hr>
                   
@@ -173,12 +175,21 @@ organizing sisters for sponsored table and activity night of event, liaison betw
                   <p class="social"><a href="https://www.instagram.com/tiffanywhiteartdesign/"><img src="images/instagram.png" height="60" width="60" alt="Icon image of Instagram"></a></p>
                   <p class="social"><a href="http://tiffanywhite12.wixsite.com/tiffany-art-design"><img src="images/me.png" height="60" width="60" alt="Icon image of Website"></a></p>
 
-    
+            <div id="award">
               <h4>Other Awards</h4>
               <p>Prince Street Scholarship - Excellence in the Arts (University of Rochester) </p>
               <p> McIntosh Endowed Scholarship - Scottish Ancestry (University of Rochester) </p>
               <p>Lehigh Valley Sports Hall of Fame College Scholar Athlete of the Year (May 2014) </p>
-      
+            </div><!--.awards-->
+
+            <img class="response" src="images/cook.png" alt="I like to cook">
+
+
+            <br>
+
+            <img class="response2" src="images/travel.png" alt="I like to travel">
+
+            <img class="response2" src="images/scotland.png" alt="I like to cook">
 
           </aside>
 

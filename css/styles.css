@@ -5,9 +5,21 @@ body {
 
 }
 
-h1, h2, h3, h4, h5 {
+h1 {
+	font-family: 'Cormorant Unicase', serif;
+}
 
+h2, h3, h4, h5 {
+	font-family: 'Playfair Display SC', serif;
 
+}
+
+p {
+	font-family: 'Eczar', serif;
+}
+
+ul, li {
+	font-family: 'Eczar', serif;
 }
 
 #first {
@@ -123,9 +135,12 @@ article, aside {
 	
 }
 
+
+
 /*****Navigation*****/
 
 nav { float: right;
+	font-family: 'Covered By Your Grace', cursive;
 
 
 }
@@ -160,7 +175,7 @@ font-size: 15px;
 
 .horizontal-nav a:hover {
 background-color: #d29f13;
-color: white;
+color:#041c2c;
 }
 
 /**Link/Highlight**/
@@ -241,6 +256,13 @@ color: white;
 	padding-top: 0px;
 }
 
+#award {
+	color: navy;
+	background-color: white;
+	padding: 0px 5px;
+	
+}
+
 
 /**Portfolio**/
  #title {
@@ -254,7 +276,7 @@ color: white;
 
  .container-top-portfolio {
  	margin: 20px;
- 	background-color: #741b47;
+ 	background-color: #041c2c;
  	color: #f4d98b;
  	margin: 10px;
  	padding: 10px;
@@ -288,9 +310,14 @@ color: white;
 
  .response {
  	width: 400px;
- 	height: 150px;
+ 	height: 200px;
 
 
+ }
+
+ .response2 {
+ 	width:400px;
+ 	padding-top: 20px;
  }
 
  .social {
